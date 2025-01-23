@@ -25,3 +25,10 @@ console.log("Type of Data:", typeof productPrice)
 
 console.log("This Product is Available:", isAvailable)
 console.log("Type of Data:", typeof isAvailable)
+
+//Task 3 - Number Data Type
+let accountbalance = 500
+console.log("Current Account Balance:", accountbalance)
+console.log("Deposit Amount: 200")
+accountbalance += 200
+console.log("Current Account Balance:", accountbalance)
