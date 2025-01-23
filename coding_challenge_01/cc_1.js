@@ -11,3 +11,17 @@ console.log("Type of Data:", employeeID)
 
 console.log("Is this user active?", isActive)
 console.log("Type of Data:", typeof isActive)
+
+//Task 2 - Primative Data Types
+let productName = "Mountain Bike"
+const productPrice = 145
+var isAvailable = false
+
+console.log("Product Name:", productName)
+console.log("Type of Data:", typeof productName)
+
+console.log("Product Price:", productPrice)
+console.log("Type of Data:", typeof productPrice)
+
+console.log("This Product is Available:", isAvailable)
+console.log("Type of Data:", typeof isAvailable)
