@@ -36,3 +36,9 @@ console.log("Current Account Balance:", accountbalance)
 //Task 4 - String Data Type
 let customerName = "Rebecca Smith"
 console.log("Welcome to our store", customerName, "!")
+
+//Task 5: Boolean Data Type
+let isLoggedIn = true
+let accessOffice = false
+console.log("Is the employee logged in?", isLoggedIn)
+console.log("Is the employee logged in and accessing office?", isLoggedIn && accessOffice)
