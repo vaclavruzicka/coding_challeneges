@@ -32,3 +32,7 @@ console.log("Current Account Balance:", accountbalance)
 console.log("Deposit Amount: 200")
 accountbalance += 200
 console.log("Current Account Balance:", accountbalance)
+
+//Task 4 - String Data Type
+let customerName = "Rebecca Smith"
+console.log("Welcome to our store", customerName, "!")
