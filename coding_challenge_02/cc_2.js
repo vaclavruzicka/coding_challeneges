@@ -56,3 +56,15 @@ let joshWaters = {
 }
 customers.push(joshWaters)
 console.log(customers)
+//Task 5 - Object Methods
+let order = {
+    orderID: 45768,
+    customerName: "Dean Acker",
+    amount: 47.56,
+}
+    order.tax =  .1
+    order.calculateTax =  function() {
+         return this.amount * this.tax
+    }
+console.log("Order Details:", order)
+console.log("Tax Amount:", order.calculateTax())
