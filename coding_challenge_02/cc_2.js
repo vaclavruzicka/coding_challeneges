@@ -18,6 +18,15 @@ let length = scores.length
 let average = total / length
 console.log("Average Score:", average)
 
-
-
-
+//Task 3 - Working with Objects
+let employee = {
+    name: "John Smith",
+    age: 25,
+    department: "Electronics",
+    isActive: true
+}
+console.log("Employee Information:", employee)
+employee.department = "Customer Service"
+console.log("Employee Information:", employee)
+employee.position = "Customer Service Representative"
+console.log("EMployee Information:", employee)
