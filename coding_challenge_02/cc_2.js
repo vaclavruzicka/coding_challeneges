@@ -29,4 +29,30 @@ console.log("Employee Information:", employee)
 employee.department = "Customer Service"
 console.log("Employee Information:", employee)
 employee.position = "Customer Service Representative"
-console.log("EMployee Information:", employee)
+console.log("Employee Information:", employee)
+
+//Task 4 - Array of Objects
+let janeSmith = {
+    name: "Jane Smith",
+    email: "janesmith@gmail.com",
+    purchaseAmount: 500
+}
+let marcusConner = {
+    name: "Marcus Conner",
+    email: "marcusconner@gmail.com",
+    purchaseAmount: 275
+}
+let philHunt = {
+    name: "Phil Hunt",
+    email: "philhunt@gmail.com",
+    purchaseAmount: 200
+}
+let customers = [janeSmith, marcusConner, philHunt]
+console.log(customers)
+let joshWaters = {
+    name: "Josh Waters",
+    email: "joshwaters@gmail.com",
+    purchaseAmount: 50
+}
+customers.push(joshWaters)
+console.log(customers)
